@@ -1,5 +1,7 @@
 # OneBrick System Design
 
+![onebrick system design](https://github.com/ahrezaldy/onebrick-sysdes/blob/master/OneBrick%20System%20Design.pdf)
+
 ### Service 1 (Crawler)
 - This service main purpose is to crawl data from 3rd party / external source, as many as they can, and save the raw data to internal database.
 - The database better use NoSQL, because the data could be different between each source, and also prone to change in the future.
